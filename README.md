@@ -1,4 +1,4 @@
-# Malware Behavior Lab — Python (Keylogger & Ransomware)
+# Malware Lab — Python (Keylogger & Ransomware)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Ambiente-Laborat%C3%B3rio%20Controlado-success)
