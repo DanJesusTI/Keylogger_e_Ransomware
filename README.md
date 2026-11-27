@@ -24,3 +24,16 @@ As bibliotecas usadas foram:
 - pynput — https://pypi.org/project/pynput/
 - pip - https://pip.pypa.io/en/stable/
 - keyboard - https://pypi.org/project/keyboard/
+
+---
+
+Aviso de Uso
+
+Todas as regras, logs de exemplo e simulações documentadas neste repositório são executados exclusivamente em servidores de laboratório autorizados, sem exposição de dados sensíveis ou endereços reais de produção.
+
+---
+
+Autor
+
+**Daniel Jesus Morais**
+* GitHub: [@DanJesusTI](https://github.com/DanJesusTI)
