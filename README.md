@@ -1,23 +1,22 @@
-# Keylogger Via Email
-Código para fins educativos e utilizado em ambiente de teste controlado, com VMs e máquinas prontas para uso do malware.
+Malware Behavior Lab — Python (Keylogger & Ransomware)
 
-Versão inicial do Keylogger, com a ideia de capturar o conteúdo escrito pela vítima e ser enviada via SMTP do Google, através de uma conta gmail (Que necessariamente precisa estar verificada a um número de Telefone ou MFA2), pode funcionar também em segundo plano com o arquivo sendo executado em .pyw.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/Ambiente-Laborat%C3%B3rio%20Controlado-success)
+![Focus](https://img.shields.io/badge/Foco-Estudo%20%26%20Detec%C3%A7%C3%A3o-critical)
 
-O código precisa estar em execução através de uma IDE, tanto na máquina do atacante (apenas executando deixando o código aberto para captura e envio de dados), quanto no da vítima.
+Repositório dedicado ao estudo prático do funcionamento interno de duas ameaças comuns — **Keylogger** e **Ransomware** — desenvolvidas em Python de forma simplificada para compreensão de técnicas ofensivas e criação de estratégias de detecção defensiva (Blue Team).
 
-As bibliotecas usadas foram:
-- Python Documentation — https://docs.python.org/3/
-- Cryptography (Fernet) — https://cryptography.io/
-- pynput — https://pypi.org/project/pynput/
-- smtplib — https://docs.python.org/3/library/smtplib.html
-- pip - https://pip.pypa.io/en/stable/
-- keyboard - https://pypi.org/project/keyboard/
+**Aviso Legal (Disclaimer):** Todo o conteúdo deste repositório tem finalidade estritamente **educacional e de pesquisa em segurança da informação**. Os testes foram conduzidos exclusivamente em máquinas virtuais (VMs) isoladas e autorizadas. O uso destes scripts fora de ambientes controlados e sem autorização explícita é ilegal e de inteira responsabilidade de quem os executa.
 
+---
 
-# Ransoware Local
-Código para fins educativos e utilizado em ambiente de teste controlado, com VMs e máquinas prontas para uso do malware.
+Estrutura do Repositório
 
-Uma versão local de um ransoware que criptografa e descriptografa arquivos de forma simples, e que necessita de código rodando em aberto no PC da vítima para funcionar corretamente, não é tão discreto, porém pode funcionar também em segundo plano com o arquivo sendo executado em .pyw. 
+```text
+├── Keylogger_email/       # Captura de teclas e exfiltração simulada via SMTP
+├── Ransomware_local/      # Criptografia e descriptografia simétrica de arquivos de teste
+├── requirements.txt       # Dependências externas do laboratório
+└── README.md              # Documentação técnica e visão defensiva
 
 As bibliotecas usadas foram:
 - Python Documentation — https://docs.python.org/3/
